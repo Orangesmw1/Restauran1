@@ -396,6 +396,374 @@ header .card-text {
 
 /* Long End Header-About */
 
+/* Nguyên Start Deal */
+
+.deal {
+
+}
+
+.container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.deal-content {
+  background-color: #ff6600;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.deal-img {
+  background-image: url(../img/restaurant01.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  width: 100%;
+  min-height: 600px;
+}
+
+.deal-img::before {
+  content: "";
+  background: #100f1375;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.deal-title {
+  padding: 70px 60px;
+}
+
+.deal-content h4 {
+  font-size: 20px;
+  color: white;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-family: 'Pacifico', cursive;
+}
+
+.deal-content h2 {
+  font-size: 38px;
+  font-weight: 600;
+  color: #232121;
+}
+
+.deal-content p {
+  color: #ffdfc9;
+  padding: 10px 0;
+  font-size: 18px;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.deal-detail {
+  padding-top: 40px;
+}
+
+.deal-detail i {
+  width: 70px;
+  height: 70px;
+  background-color: white;
+  text-align: center;
+  line-height: 70px;
+  font-size: 22px;
+  border-radius: 5px;
+  color: #FF6600;
+}
+
+.deal-detail i:hover {
+  content: "";
+  color: #ffc600;
+  transition: all 0.5s;
+}
+
+.deal-detail h5 {
+  font-size: 22px;
+  padding-top: 25px;
+  color:#232121;
+  font-weight: 700;
+}
+
+.deal-detail p {
+  color: #ffdfc9;
+  padding:10px 0;
+  font-size: 18px;
+}
+
+/* Responsive Deal */
+
+ @media (min-width: 491px) and (max-width: 740px) {
+
+} 
+
+/* End Deal */
+
+/* Nguyên Star New */
+
+.new {
+  background: #f7f7f7;
+}
+
+.container {
+  position: relative;
+}
+
+.py-5 {
+  padding-top: 3rem !important;
+}
+
+.py-5 {
+  padding-top: 3rem !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.pd-3 {
+  padding-bottom: 1rem !important;
+}
+
+.pt-3 {
+  padding-top: 1rem !important;
+}
+
+.new h3 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 1px;
+  color: #FF6600;
+  font-family: 'Pacifico' , cursive;
+}
+
+.new h1 {
+  font-size: 38px;
+  line-height: 40px;
+  color: #232121;
+  font-weight: 600;
+}
+
+.new {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.my-2 {
+  margin-bottom: 0.5rem !important;
+}
+
+.my-2 {
+  margin-top: 0.5rem !important;
+}
+
+.img1 {
+  background-image: url(../img/restaurant02.jpeg);
+}
+
+.new-item1 {
+  width: 350px;
+  height: 220px;
+
+  position: relative;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.item-layout {
+  position: absolute;
+  width: 100%;
+  height: 20%;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0.53) 69%, rgb(27 27 27 / 76%) 100%);
+  border-radius: 10px;
+}
+
+.new-item--content {
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+}
+
+.new-item--content h5 {
+  font-size: 22px;
+  line-height: 30px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.new-item--content p {
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffc600;
+  font-weight: 600;
+  opacity: 0.9;
+}
+
+.img2 {
+  background: url(../img/restaurant03.jpeg);
+}
+
+.new-item2 {
+  width: 350px;
+  height: 220px;
+
+  position: relative;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.img3 {
+  background: url(../img/restaurant04.jpeg);
+}
+
+.new-item3 {
+  width: 350px;
+  height: 220px;
+
+  position: relative;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.img4 {
+  background: url(../img/restaurant05.jpeg);
+}
+
+.new-item4 {
+  width: 350px;
+  height: 220px;
+
+  position: relative;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.img5 {
+  background: url(../img/restaurant06.jpeg);
+}
+
+.new-item5 {
+  width: 350px;
+  height: 220px;
+
+  position: relative;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.img6 {
+  background: url(../img/restaurant07.jpeg);
+}
+
+.new-item6 {
+  width: 350px;
+  height: 220px;
+
+  position: relative;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+/* Star Menu */
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu-content {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px 20px;
+}
+
+.content {
+  width: 380px;
+  height: 220px;
+
+  border-radius: 10px;
+  border: 1px solid rgb(222, 226, 230);;
+  box-shadow: 0 2px 8px 0 rgb(0 0 0 / 0%), 0 6px 20px 0 rgb(0 0 0 / 4%);
+  
+}
+
+.icon {
+  color: #FF6600;
+  width: 70px;
+  height: 70px;
+  text-align: center !important;
+  font-size: 25px;
+  line-height: 70px;
+  border-radius: 6px;
+  margin-right: 30px;
+  background-color: rgba(253, 251, 251, 0.959);
+
+}
+
+.icon:hover {
+  color: white;
+  background: #FF6600;
+}
+
+.item1 {
+  display: flex;
+  margin-top: 20px;
+}
+
+.item1 h4 a {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 600;
+  color: black;
+}
+
+.item1:hover h4 a {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 600;
+  color:#FF6600 ;
+}
+
+.content p {
+  line-height: 28px;
+  font-size: 18px;
+}
+
 
 
 
