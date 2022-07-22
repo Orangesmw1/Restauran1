@@ -1,0 +1,408 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Quicksand", sans-serif;
+  line-height: 1.15;
+  color: rgba(22, 28, 45, 0.7);
+}
+
+/* Long Start Header-About */
+
+/* ---------- Header ----------- */
+
+/* header */
+header {
+  background: linear-gradient(to right, #ff6600, hsl(30deg 100% 1% / 20%)),
+    url(../img/restaurant09.jpeg);
+    height: 60vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+
+header .container {
+}
+
+/* nav  */
+
+.navbar-title {
+  font-size: 2.1em !important;
+  font-weight: 700;
+  color: #fff !important;
+}
+
+.navbar-content {
+  position: relative;
+}
+
+.navbar-content input {
+  padding: 10px 50px 10px 20px;
+  height: 45px;
+}
+
+.navbar-toggler-icon {
+  margin-bottom: 10px;
+}
+
+.navbar-toggler-icon .fa-bars {
+  color: #fff;
+  font-size: 35px;
+}
+
+.navbar-content .fa-search {
+  position: absolute;
+  top: 36%;
+  right: 35%;
+  color: rgba(22, 28, 45, 0.7);
+  font-size: 15px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Light theme */
+#myBody {
+  background-color: white;
+}
+
+#switchButton {
+}
+#switchButton .fa-sun {
+  display: none;
+}
+
+#switchButton .fa-moon {
+  display: block;
+  color: white;
+  font-size: 20px;
+}
+
+/* Dark Theme*/
+.dark#myBody {
+  background-color: #282828 !important;
+}
+.dark #switchButton {
+}
+.dark #switchButton .fa-sun {
+  display: block;
+  color: white;
+}
+
+.dark #switchButton .fa-moon {
+  display: none;
+}
+
+.dark .search {
+  background-color: #232220 !important;
+  border: none;
+}
+
+.dark .fa-search {
+  color: #fff;
+}
+
+.dark .about {
+  color: #fff;
+}
+
+.dark .about-title h3 {
+  color: #fff;
+}
+
+/* modal  */
+.modal {
+  width: 100vw;
+    height: 100vh;
+}
+
+.modal-dialog {
+  width: 100% !important;
+  height: 100%;
+  margin: 0 !important;
+  max-width: none;
+}
+
+.modal-content {
+  width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-header {
+  border: none;
+  padding: 2rem 1rem;
+}
+
+.modal-header .close {
+  background: #ff6600;
+    color: white !important;
+    opacity: 1;
+    line-height: 40px;
+    font-weight: 600;
+    padding: 0 15px !important;
+    border-radius: 6px;
+    border-color: #ff6600;
+    border: 0.7px solid rgba(0, 0, 0, 0.5);
+    margin-right: 10px;
+}
+
+.modal-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.modal-body ul {
+  list-style: none;
+  height: 60%;
+  font-size: 20px;
+    font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.modal-body ul li:hover {
+  color: #ff6600;
+  cursor: pointer;
+}
+
+/* card  */
+
+header .card {
+  border: 0;
+  background-color: transparent;
+  width: 40vw;
+  margin-top: 10%;
+}
+
+header .card-body {
+  font-size: 4vh;
+  font-weight: 700;
+  line-height: 5vh;
+  color: white;
+}
+
+header .card-body a {
+  padding: 13px 50px;
+  border: 1px solid white;
+  color: white;
+  font-weight: 700;
+  position: relative;
+}
+
+header .card-body a .fa-angle-right {
+  position: absolute;
+  top: 34%;
+  right: 16%;
+}
+
+header .card-text {
+  font-size: 1rem !important;
+}
+
+/* For Tablet Header */
+
+@media (min-width: 491px) and (max-width: 740px) {
+  header {
+    height: 100vh;
+  }
+
+  .navbar-title {
+    font-size: 1.9rem !important;
+  }
+
+  .navbar-content .search {
+    display: none;
+  }
+
+  .navbar-content .fa-search {
+    display: none;
+  }
+
+  .navbar-toggler-icon .fa-bars {
+    font-size: 30px;
+  }
+
+  header .card {
+    width: 100%;
+  }
+
+  header .card-body a {
+    padding: 11px 37px !important;
+    
+  }
+
+  header .card-body a .fa-angle-right {
+    top: 35%;
+    right: 17%;
+  }
+
+  .modal-body ul {
+    height: 100%;
+    font-size: 1rem;
+  }
+
+}
+
+/* For Mobile Header  */
+
+@media (max-width: 490px) {
+  header {
+    height: 100vh;
+  }
+
+  .navbar-title {
+    font-size: 1.5rem !important;
+  }
+
+  .navbar-content .search {
+    display: none;
+  }
+
+  .navbar-content .fa-search {
+    display: none;
+  }
+
+  .navbar-toggler-icon {
+    margin-bottom: 0;
+  }
+
+  .navbar-toggler-icon .fa-bars {
+    font-size: 25px;
+  }
+
+  header .card {
+    width: 100%;
+  }
+
+  header .card-body {
+    line-height: 6vh;
+    font-size: 0.8rem;
+  }
+
+  header .card-body a {
+    padding: 11px 37px !important;
+    
+  }
+
+  header .card-body a .fa-angle-right {
+    top: 39%;
+    right: 17%;
+  }
+
+  header .card-text {
+    font-size: 0.9rem !important;
+  }
+
+  header .card-title {
+    font-size: 1.25rem;
+  }
+
+  .modal-body ul {
+    height: 100%;
+    font-size: 1rem;
+  }
+
+}
+
+/* section  */
+
+/* about  */
+
+.about {
+
+}
+
+.about .container {
+  display: flex;
+  align-items: center;
+
+  padding-top: 4rem !important;
+}
+
+.about-title {
+  flex: 1;
+}
+
+.about-title h6 {
+  color: #FF6600;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    display: block;
+    font-family: 'Pacifico', cursive;
+}
+
+.about-title h3 {
+  color: black;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: bold !important;
+}
+
+.about-content {
+  flex: 1.5;
+}
+
+.about-content p {
+  font-size: 18px;
+    line-height: 28px;
+}
+
+/* For Tablet About */
+
+@media (min-width: 491px) and (max-width: 740px) {
+  .about .container {
+    flex-direction: column;
+
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+}
+
+@media (max-width: 490px) {
+  .about .container {
+    flex-direction: column;
+
+    padding-left: 0;
+    padding-right: 0;
+    width: 90%;
+  }
+
+  .about-title h6 {
+    font-size: 20px;
+  }
+
+  .about-title h3 {
+    font-size: 30px;
+  }
+
+  .about-content p {
+    font-size: 1rem;
+  }
+}
+
+/* Long End Header-About */
+
+
+
+
+
+
+
+
+
+
+
