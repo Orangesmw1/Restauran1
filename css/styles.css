@@ -116,6 +116,7 @@ header .container {
   color: #fff;
 }
 
+
 /* modal  */
 .modal {
   width: 100vw;
@@ -371,6 +372,8 @@ header .card-text {
   }
 
 }
+
+/* For Mobile About  */
 
 @media (max-width: 490px) {
   .about .container {
@@ -764,6 +767,15 @@ p {
   font-size: 18px;
 }
 
+/* dark theme  */
+
+.dark .content {
+  background-color: #fff;
+}
+
+.dark .content p {
+  
+}
 
 
 
