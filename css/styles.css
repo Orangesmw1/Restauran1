@@ -716,7 +716,6 @@ p {
 }
 
 .content {
-  width: 380px;
   height: 220px;
 
   border-radius: 10px;
@@ -773,9 +772,6 @@ p {
   background-color: #fff;
 }
 
-.dark .content p {
-  
-}
 
 
 
